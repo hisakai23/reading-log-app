@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>読書記録アプリ-読了</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+     <button id="backBtn">未読ページへ</button>
+    <h1>読書記録アプリ-読了</h1>
+
+    <label>読み終わった日<input type="date" id="dateInput"></label>
+    <label>書籍名（必須）<input type="text" id="bookName"></label>
+    <label>著者名（任意）<input type="text" id="author"></label>
+    <label>メモ<input type="text" id="memo" placeholder="例：感想"></label>
+    <button id="addBtn">更新する</button>
+    <button id="cancelBtn" style="display:none;">キャンセル</button>
+
+
+    <h2>書籍一覧</h2>
+    <ul id="bookList"></ul>
+
+    <script src="completed.js"></script>
+  </body>
+</html>

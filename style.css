@@ -1,0 +1,119 @@
+/* 全体の中央寄せと余白 */
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* タイトル */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* ラベルと入力欄 */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* メモ欄 */
+#memo {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* ボタン */
+button {
+  padding: 8px 16px;
+  margin: 5px 5px 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#cancelBtn {
+  background-color: #ccc;
+}
+
+#backBtn {
+  background-color: #2196F3;
+  color: white;
+  float: right;
+}
+
+/* 書籍リスト */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.record-content {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.button-group button {
+  padding: 4px 8px;
+  margin-right: 5px;
+}
+
+.edit {
+  background-color: #ff9800;
+  color: white;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.complete {
+  background-color: #607d8b;
+  color: white;
+}
+
+.record-content p {
+  margin: 4px 0;
+}
+
+.record-content strong {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.memo {
+  font-size: 0.9rem;
+  color: #666;
+}
