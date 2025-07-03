@@ -179,7 +179,7 @@ const backBtn = document.getElementById('backBtn');
 
 if (backBtn) {
   backBtn.addEventListener('click', () => {
-    window.location.href = 'Reading Journal.html';
+    window.location.href = 'index.html';
   });
 }
 
